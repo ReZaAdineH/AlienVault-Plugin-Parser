@@ -19,7 +19,7 @@ Usage
 To use this script, simply run the following command and provide the JSON formatted Windows security event as an argument:
 
 php
-Copy code
+ 
 python win_sec_event_parser.py <event_data>
 The script will parse the event and print the extracted information in JSON format.
 
