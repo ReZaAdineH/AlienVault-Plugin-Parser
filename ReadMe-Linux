@@ -1,0 +1,29 @@
+Linux Security Event Parsing Plugin
+
+A Python script for parsing Linux security events and extracting relevant information.
+
+Features
+
+Parses Linux security events in syslog format
+Extracts relevant information such as timestamp, facility, severity, hostname, and message
+Provides error handling and logging for debugging purposes
+Requirements
+
+Python 3.x
+logging Python module
+rsyslog module for parsing syslog formatted messages (included in repository)
+Usage
+
+To use this script, simply run the following command and provide the syslog formatted Linux security event as an argument:
+
+php
+python linux_sec_event_parser.py <event_data>
+The script will parse the event and print the extracted information in JSON format.
+
+Contribution
+
+This project is open for contributions and improvements. If you have any suggestions or bug fixes, feel free to submit a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
