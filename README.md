@@ -29,4 +29,4 @@ This project is open for contributions and improvements. If you have any suggest
 
 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project now is free to use.
